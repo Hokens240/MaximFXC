@@ -3144,7 +3144,7 @@ span.sm-info {
   height: 100%;
   top: -30%;
   left: 0;
-  background-image: url(/images/blur-purple.png);
+  background-image: url(../images/blur-purple.png);
   background-repeat: no-repeat;
   background-position: center center;   
   background-size: cover;
@@ -9251,7 +9251,7 @@ img.footer-logo-dark {
 
 #login,
 #signup {
-  background: url(/images/login.jpg);
+  background: url(../images/login.jpg);
   background-position: bottom left;
   min-height: 100vh;
   padding-top: 80px;
@@ -9259,7 +9259,7 @@ img.footer-logo-dark {
 }
 
 #reset-password {
-  background: url(/images/reset-password.jpg);
+  background: url(../images/reset-password.jpg);
   background-position: center center;
   min-height: 100vh;
   padding-top: 80px;
@@ -9276,12 +9276,12 @@ img.footer-logo-dark {
 }
 
 #login .register-page-wrapper {
-  background: url(/images/login-wrapper.jpg);
+  background: url(../images/login-wrapper.jpg);
   background-position: left top;
 }
 
 #signup .register-page-wrapper {
-  background: url(/images/login-wrapper.jpg);
+  background: url(../images/login-wrapper.jpg);
   background-position: right center;
 }
 
@@ -11015,33 +11015,33 @@ body.theme--dark {
 
 .bg--theme,
 .shape--blue-400:after { 
-  background-color: #7b5dd6; 
+  background-color: #1680fb; 
 }
 
 .btn--theme {
   color: #fff!important;
-  border-color: #7b5dd6!important;
-  background-color: #7b5dd6!important;
+  border-color: #1680fb!important;
+  background-color: #1680fb!important;
 }
 
 .hover--theme:hover,
 .white-scroll .scroll .hover--theme:hover,
 .black-scroll .scroll .hover--theme:hover {
   color: #fff!important;
-  border-color: #6a4ec1!important;
-  background-color: #6a4ec1!important;
+  border-color: #185abd!important;
+  background-color: #185abd!important;
 }
 
 .theme--dark .white-scroll .scroll .hover--theme:hover {
   color: #fff!important;
-  border-color: #6a4ec1!important;
-  background-color: #6a4ec1!important;
+  border-color: #185abd!important;
+  background-color: #185abd!important;
 }
 
 .theme--dark .white-scroll .hover--theme:hover {
   color: #fff!important;
-  border-color: #6a4ec1!important;
-  background-color: #6a4ec1!important;
+  border-color: #185abd!important;
+  background-color: #185abd!important;
 }
 
 .color--theme, 
@@ -11056,56 +11056,58 @@ body.theme--dark {
 .color--theme li, 
 .color--theme i, 
 .color--theme span,
-.color--white .color--theme { color: #7b5dd6!important; }
+.color--white .color--theme { color: #1680fb!important; }
 
 .loading--theme .loader { 
-  border-color: transparent #7b5dd6; 
+  border-color: transparent #1680fb; 
 }
 
 .loading--theme .loader::after {
-  border-color: transparent rgba(123, 93, 214, .15); 
+  border-color: transparent rgba(22, 128, 251, .15); 
 }
 
 .nav-theme .sm-info { 
-  background-color: #7b5dd6; 
+  background-color: #1680fb; 
 }
 
 .wsmenu > .wsmenu-list.nav-theme > li > ul.sub-menu > li > a:hover,
 .wsmenu > .wsmenu-list.nav-theme > li > .wsmegamenu.w-75 ul.link-list > li > a:hover,
 .wsmenu > .wsmenu-list.nav-theme > li > .wsmegamenu.halfmenu ul.link-list > li > a:hover {
-  color: #7b5dd6!important;
+  color: #1680fb!important;
 }
 
 .hero-section .quick-form .form-control:focus {
-  border-color: #7b5dd6;
+  border-color: #1680fb;
 }
 
 .cbox-2:hover .cbox-2-ico.bg--theme { 
-  color: #7b5dd6; 
-  border-color: #7b5dd6; 
+  color: #1680fb; 
+  border-color: #1680fb; 
 }
 
 .tabs-1.tabs--theme, 
-.tabs-1.tabs--theme li.current:hover { 
-  color: #7b5dd6; 
-  border-color: #7b5dd6; 
+.tabs-1.tabs--theme li.current:hover,
+.faqs-section .tabs--theme .tabs-1 li.current,
+.faqs-section .tabs--theme .tabs-1 li.current:hover { 
+  color: #1680fb; 
+  border-color: #1680fb; 
 }
 
 .faqs-section .tabs--theme .tabs-1 li.current,
 .faqs-section .tabs--theme .tabs-1 li.current:hover {
-  background-color: #7b5dd6;
-  border-color: #7b5dd6!important;
+  background-color: #1680fb;
+  border-color: #1680fb!important;
 }
 
 .switch-wrap input:checked + .switcher.switcher--theme { 
-  background-color: #7b5dd6; 
-  border-color: #7b5dd6; 
+  background-color: #1680fb; 
+  border-color: #1680fb; 
 }
 
 .shape-ico.color--theme path,
 .shape-ico.color--theme path,
 .shape-ico.color--theme path {
-  fill: #f1edff;
+  fill: #f4f9fc;
 }
 
 .newsletter-section .form-control:focus {
@@ -11115,8 +11117,8 @@ body.theme--dark {
 
 .theme-pagination .page-item.active .page-link {
   color: #fff!important;
-  background-color: #7b5dd6;
-  border: 2px solid #7b5dd6;
+  background-color: #1680fb;
+  border: 2px solid #1680fb;
 }
 
 
